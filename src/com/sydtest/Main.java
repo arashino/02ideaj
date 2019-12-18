@@ -1,9 +1,16 @@
 package com.sydtest;
 
+import com.sydtest.model.Product;
+
 public class Main {
 
     public static void main(String[] args) {
         // write your code here
-        System.out.println("Hello World");
+        String helloWorld = "Hello World";
+        System.out.println(helloWorld);
+
+        Product product = new Product("Desktop");
+
+        System.out.println(product.getName());
     }
 }
